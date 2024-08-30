@@ -160,7 +160,7 @@ const tipoValido = (tipo) => Object.values(tiposPokemon).includes(tipo);
 
         }
         
-        if (numero) {
+        if (id) {
 
             req.body.imagem = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
 
