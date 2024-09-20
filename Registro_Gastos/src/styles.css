@@ -1,0 +1,112 @@
+
+.App {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+    padding: 20px;
+  }
+  
+body {
+
+    background-image: url('backgroung.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: scroll; 
+}
+
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 2px solid #ddd; 
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+    text-align: center; 
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    width: 200px;
+    margin-top: 5px;
+    text-align: center; 
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+    text-align: center; 
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  li button {
+    background-color: #dc3545;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  li button:hover {
+    background-color: #c82333;
+  }
+  
+  
+  h3 {
+    text-align: center; 
+    margin-top: 20px;
+  }
+  
+
+  h1 {
+    text-align: center; 
+    margin-bottom: 20px;
+  }
+  
